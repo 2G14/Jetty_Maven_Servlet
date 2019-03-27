@@ -8,7 +8,7 @@ jettyはサーバークラスを作成
 ## set up
 
 ```bash
-$ mvn  archetype:generate -DarchetypeArtifactId=maven-archetype-webapp # webapp用 コマンド
+$ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp # webapp用 コマンド
 $ cd [アーティファクトID]
 $ vim pom.xml # ライブラリを記述
 $ mvn dependency:copy-dependencies -DoutputDirectory=lib # ライブラリをlibディレクトリにダウンロード
