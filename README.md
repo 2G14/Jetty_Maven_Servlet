@@ -22,3 +22,4 @@ $ javac -d WebContent/WEB-INF/classes -cp "lib/*" src/**/*java
 # java -cp [class_path] [server_class]
 $ java -cp "lib/*:WebContent/WEB-INF/classes" server.AppServer
 ```
+access localhost:8080/main on your browser.
